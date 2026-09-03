@@ -55,7 +55,13 @@ describe("Tennis", () => {
     expect(tennis.obtenerScore()).toEqual("Game for player 1");
   });
 
-  
+  it("deberia mostrar Game for player 2 cuando el jugador 2 anota 4 veces", () => {
+    tennis.jugador2Anota();
+    tennis.jugador2Anota();
+    tennis.jugador2Anota();
+    tennis.jugador2Anota();
+    expect(tennis.obtenerScore()).toEqual("Game for player 2");
+  });
 
 });
 

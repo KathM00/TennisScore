@@ -22,8 +22,8 @@ class Tennis {
       { cumple: j2Gana, resultado: "Game for player 2" },
       { cumple: !j1Gana && !j2Gana, resultado: `${puntajes[this.puntosJ1]}-${puntajes[this.puntosJ2]}` }
     ];
-    return condiciones.find(condicion => condicion.cumple).resultado;
     
+    return condiciones.find(condicion => condicion.cumple).resultado;
   }
 }
 export default Tennis;
