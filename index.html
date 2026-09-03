@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcador de Tennis</title>
+</head>
+<body>
+  <h1>Tablero de Tennis</h1>
+  
+ 
+  <div>
+    <h2>Score actual: <span id="marcador">Love-Love</span></h2>
+  </div>
+  
+  
+  <div>
+    <button id="btn-jugador1">Anota Jugador 1</button>
+    <button id="btn-jugador2">Anota Jugador 2</button>
+  </div>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+  <script type="module" src="./src/presenter.js"></script>
+</body>
 </html>
