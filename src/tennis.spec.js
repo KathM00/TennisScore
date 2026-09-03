@@ -40,6 +40,13 @@ describe("Tennis", () => {
     expect(tennis.obtenerScore()).toEqual("Love-30");
   });
 
+  it("deberia mostrar 30-15 cuando jugador 1 anota 2 veces y jugador 2 anota 1 vez", () => {
+    tennis.jugador1Anota();
+    tennis.jugador1Anota();
+    tennis.jugador2Anota();
+    expect(tennis.obtenerScore()).toEqual("30-15");
+  });
+
 });
 
   
