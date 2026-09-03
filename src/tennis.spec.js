@@ -28,4 +28,14 @@ describe("Tennis", () => {
     tennis.jugador1Anota();
     expect(tennis.obtenerScore()).toEqual("40-Love");
   });
+
+  it("deberia mostrar Love-15 cuando el jugador 2 anota 1 vez", () => {
+    tennis.jugador2Anota();
+    expect(tennis.obtenerScore()).toEqual("Love-15");
+  });
+
 });
+
+  
+
+  
