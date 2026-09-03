@@ -108,9 +108,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ab684b9caa308d4be75a613a808a6563f0886bc",
     "commitName": "feat: muestra 30-Love cuando el jugador 1 anota 2 veces",
     "commitTimestamp": 1788401641110,
     "testId": 2
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 4,
+    "numTotalTests": 5,
+    "timestamp": 1788401717766,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra 40-Love cuando el jugador 1 anota 3 veces",
+    "commitTimestamp": 1788401776259,
+    "testId": 3
   }
 ]
