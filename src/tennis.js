@@ -8,11 +8,8 @@ class Tennis {
   }
 
   obtenerScore() {
-    if (this.puntosJ1 === 1) {
-      return "15-Love";
-    }
-    return "Love-Love";
+    const puntajes = ["Love", "15", "30", "40"];
+    return `${puntajes[this.puntosJ1]}-Love`;
   }
 }
 export default Tennis;
-

@@ -86,9 +86,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2065fff393834678602642ef42948b7446fe3af1",
     "commitName": "feat: muestra 15-love cuando el jugador 1 anota",
     "commitTimestamp": 1788400642374,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 2,
+    "numTotalTests": 5,
+    "timestamp": 1788400929194,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788400964412,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra 30-Love cuando el jugador 1 anota 2 veces",
+    "commitTimestamp": 1788401641110,
+    "testId": 2
   }
 ]

@@ -1,16 +1,31 @@
 import Tennis from "./tennis";
 
 describe("Tennis", () => {
-  it("deberia mostrar Love-Love cuando ningun jugador anoto", () => {
-    let tennis = new Tennis();
+  let tennis;
+
+  beforeEach(() => {
+    tennis = new Tennis();
+  });
+
+  it("deberia mostrar Love-Love cuando inicia el partido", () => {
     expect(tennis.obtenerScore()).toEqual("Love-Love");
   });
-});
 
-describe("Tennis", () => {
   it("deberia mostrar 15-Love cuando el jugador 1 anoto un punto", () => {
-    let tennis = new Tennis();
     tennis.jugador1Anota();
     expect(tennis.obtenerScore()).toEqual("15-Love");
+  });
+
+  it("deberia mostrar 30-Love cuando el jugador 1 anota 2 veces", () => {
+    tennis.jugador1Anota();
+    tennis.jugador1Anota();
+    expect(tennis.obtenerScore()).toEqual("30-Love");
+  });
+
+  it("deberia mostrar 40-Love cuando el jugador 1 anota 3 veces", () => {
+    tennis.jugador1Anota();
+    tennis.jugador1Anota();
+    tennis.jugador1Anota();
+    expect(tennis.obtenerScore()).toEqual("40-Love");
   });
 });
