@@ -248,9 +248,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32a352869bab4e51f7fd6566545534b1c1f37a75",
     "commitName": "feat: muestra Game for player 2 cuando el jugador 2 anota 4 veces",
     "commitTimestamp": 1788403518211,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788403622042,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788403653409,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra Deuce cuando ambos empatan",
+    "commitTimestamp": 1788403694369,
+    "testId": 9
   }
 ]

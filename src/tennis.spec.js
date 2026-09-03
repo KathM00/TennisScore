@@ -7,6 +7,11 @@ describe("Tennis", () => {
     tennis = new Tennis();
   });
 
+  const anotarPuntos = (puntosJ1, puntosJ2) => {
+    for (let i = 0; i < puntosJ1; i++) tennis.jugador1Anota();
+    for (let i = 0; i < puntosJ2; i++) tennis.jugador2Anota();
+  };
+
   it("deberia mostrar Love-Love cuando inicia el partido", () => {
     expect(tennis.obtenerScore()).toEqual("Love-Love");
   });
@@ -61,6 +66,11 @@ describe("Tennis", () => {
     tennis.jugador2Anota();
     tennis.jugador2Anota();
     expect(tennis.obtenerScore()).toEqual("Game for player 2");
+  });
+
+  it("deberia mostrar Deuce cuando ambos jugadores tienen 3 puntos", () => {
+    anotarPuntos(3, 3);
+    expect(tennis.obtenerScore()).toEqual("Deuce");
   });
 
 });
