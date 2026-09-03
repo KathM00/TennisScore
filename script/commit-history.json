@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "88adbaf2857f1ec054d5fc5a3e52f1bb58683537",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-01T14:25:30.000Z",
       "message": "feat: muestra love-love cuando ningun jugador anoto",
-      "url": "https://github.com/KathM00/TennisScore/commit/HEAD"
+      "url": "https://github.com/KathM00/TennisScore/commit/88adbaf2857f1ec054d5fc5a3e52f1bb58683537"
     },
     "stats": {
       "total": 15,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-03T01:57:19.000Z",
+      "message": "feat: muestra 15-love cuando el jugador 1 anota",
+      "url": "https://github.com/KathM00/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 22,
+      "deletions": 2,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
