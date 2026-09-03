@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7dac42aa38feed23583e9d2a53a446bc536996d2",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-03T02:37:16.000Z",
       "message": "feat: muestra 30-15 cuando el jugador 1 anota 2 y cuando el jugador 2 anota 1 vez",
-      "url": "https://github.com/KathM00/TennisScore/commit/HEAD"
+      "url": "https://github.com/KathM00/TennisScore/commit/7dac42aa38feed23583e9d2a53a446bc536996d2"
     },
     "stats": {
       "total": 9,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-03T02:43:01.000Z",
+      "message": "feat: muestra Game for player 1 cuando el jugador 1 anota 4 veces",
+      "url": "https://github.com/KathM00/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 22,
+      "deletions": 2,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

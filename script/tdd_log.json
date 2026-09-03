@@ -196,9 +196,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7dac42aa38feed23583e9d2a53a446bc536996d2",
     "commitName": "feat: muestra 30-15 cuando el jugador 1 anota 2 y cuando el jugador 2 anota 1 vez",
     "commitTimestamp": 1788403038309,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788403208665,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788403238561,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788403328688,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra Game for player 1 cuando el jugador 1 anota 4 veces",
+    "commitTimestamp": 1788403382918,
+    "testId": 7
   }
 ]
