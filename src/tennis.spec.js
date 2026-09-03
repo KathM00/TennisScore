@@ -73,6 +73,22 @@ describe("Tennis", () => {
     expect(tennis.obtenerScore()).toEqual("Deuce");
   });
 
+  it("deberia mostrar Advantage Player 1 cuando jugador 1 anota 4 veces y jugador 2 anota 3 veces", () => {
+    anotarPuntos(4, 3);
+    expect(tennis.obtenerScore()).toEqual("Advantage Player 1");
+  });
+
+  it("deberia mostrar Advantage Player 2 cuando jugador 2 anota 4 veces y jugador 1 anota 3 veces", () => {
+    anotarPuntos(3, 4);
+    expect(tennis.obtenerScore()).toEqual("Advantage Player 2");
+  });
+
+  it("deberia mostrar Game for player 1 al ganar por 2 puntos despues de Deuce", () => {
+    anotarPuntos(3, 3); 
+    anotarPuntos(2, 0);
+    expect(tennis.obtenerScore()).toEqual("Game for player 1");
+  });
+
 });
 
   

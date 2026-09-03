@@ -270,9 +270,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ecca731dd02a57e0c1091c648ab6479d3e5a6e86",
     "commitName": "feat: muestra Deuce cuando ambos empatan",
     "commitTimestamp": 1788403694369,
     "testId": 9
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 13,
+    "numTotalTests": 14,
+    "timestamp": 1788403849007,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788403866991,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cálculo de Advantage y victoria tras el Deuce",
+    "commitTimestamp": 1788403986589,
+    "testId": 10
   }
 ]
