@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2890a3c8a289d3a0d113b95baeed28a5db2b7ba3",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-03T02:28:29.000Z",
       "message": "feat: muestra Love-15 cuando el jugador 2 anota 1 vez",
-      "url": "https://github.com/KathM00/TennisScore/commit/HEAD"
+      "url": "https://github.com/KathM00/TennisScore/commit/2890a3c8a289d3a0d113b95baeed28a5db2b7ba3"
     },
     "stats": {
       "total": 19,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-03T02:32:26.000Z",
+      "message": "feat: muestra Love-30 cuando el jugador 2 anota 2 veces",
+      "url": "https://github.com/KathM00/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

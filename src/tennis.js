@@ -11,7 +11,6 @@ class Tennis {
   jugador2Anota() {
     this.puntosJ2++;
   }
-
   obtenerScore() {
     const puntajes = ["Love", "15", "30", "40"];
     return `${puntajes[this.puntosJ1]}-${puntajes[this.puntosJ2]}`;
